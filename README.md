@@ -1,5 +1,5 @@
 # 🛌 **낙상 감지 프로젝트**
-![Fall Detection](https://github.com/username/repository/raw/main/fall_down.png)
+![Fall Detection](https://github.com/KangheeCHO-git/fall-down/blob/main/fall_down.png)
 * 피실험자 낙상 이미지를 이용하여 yolov8s의 사람 객체 탐지 및 bbox 추출 기능을 학습/검증함
     (기존 Label json 데이터셋을 yolo 학습용 txt 데이터셋으로 변환함) 
 * 피실험자 낙상 동영상에서 mediapipe를 이용하여 사람 객체 탐지 및 11개의 관절 좌표값을 추출함
