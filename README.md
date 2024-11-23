@@ -6,7 +6,8 @@
     (기존 Label json 데이터셋을 yolo 학습용 txt 데이터셋으로 변환함)  
 
 * 피실험자 낙상 동영상에서 mediapipe를 이용하여 사람 객체 탐지 및 11개의 관절 좌표값을 추출함  
-    (mediapipe는 label 데이터셋이 없으므로 성능 검증이 불가능함, 대신 yolo에서 탐지된 사람 객체 bbox 내부에서만 mediapipe 관절 좌표값을 잡기로 함)
+    (mediapipe는 label 데이터셋이 없으므로 성능 검증이 불가능함,  
+    대신 yolo에서 탐지된 사람 객체 bbox 내부에서만 mediapipe 관절 좌표값을 잡기로 함)
 
 * 피실험자 낙상 동영상에서 추출한 yolo 및 mediapipe의 시계열 데이터를 이용하여 GRU 모델에 넣을 input data를 결정함
 
