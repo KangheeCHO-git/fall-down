@@ -1,0 +1,7 @@
+names:
+  0: Non_Fall
+  1: Fall
+nc: 2
+path: D:\Falldown\dataset
+train: D:\Falldown\dataset\train\images
+val: D:\Falldown\dataset\val\images
